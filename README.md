@@ -1,8 +1,8 @@
-# Chronos - Luxury Watch Website
+# Chronos Luxury Timepieces
 
-A premium, marketing-focused website for luxury Swiss watches built with React, GSAP, and Tailwind CSS.
+A premium, marketing-focused website for luxury Swiss timepieces built with React, GSAP, and Tailwind CSS.
 
-![Chronos Luxury Watches](https://img.shields.io/badge/Status-Production%20Ready-success)
+![Chronos Luxury Timepieces](https://img.shields.io/badge/Status-Production%20Ready-success)
 ![React](https://img.shields.io/badge/React-18.3-blue)
 ![GSAP](https://img.shields.io/badge/GSAP-3.12-green)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38bdf8)
@@ -27,10 +27,10 @@ A premium, marketing-focused website for luxury Swiss watches built with React, 
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/chronos-luxury-watches.git
+git clone https://github.com/YOUR_USERNAME/chronos-luxury-timepieces.git
 
 # Navigate to project directory
-cd chronos-luxury-watches
+cd chronos-luxury-timepieces
 
 # Install dependencies
 npm install
@@ -73,7 +73,7 @@ public/videos/
 ## 🏗️ Project Structure
 
 ```
-luxury-watch-website/
+luxury-timepieces-website/
 ├── src/
 │   ├── components/
 │   │   └── NavBar.jsx
@@ -101,7 +101,7 @@ luxury-watch-website/
 
 1. **Hero Section** - Premium landing with brand messaging
 2. **Message Section** - Craftsmanship story
-3. **Collection Section** - 3 watches with horizontal scroll
+3. **Collection Section** - 3 timepieces with horizontal scroll
 4. **Heritage Section** - Swiss precision and features
 5. **Why Choose Us** - 4 key selling points
 6. **Craftsmanship Section** - Video showcase
@@ -135,7 +135,7 @@ npm run lint
 ## 🎯 Key Features Explained
 
 ### Horizontal Scroll Collection
-The watch collection uses GSAP ScrollTrigger to create a smooth horizontal scrolling experience, allowing users to view each watch individually.
+The timepiece collection uses GSAP ScrollTrigger to create a smooth horizontal scrolling experience, allowing users to view each timepiece individually.
 
 ### Smart Navbar
 The navigation bar automatically hides when scrolling down and reappears when scrolling up, providing more screen space while maintaining easy access.
@@ -159,9 +159,9 @@ All sections are fully responsive with breakpoints for mobile (< 768px), tablet 
 
 ## 📝 Customization
 
-### Update Watch Collection
+### Update Timepiece Collection
 Edit `src/constants/index.js` to modify:
-- Watch names, prices, descriptions
+- Timepiece names, prices, descriptions
 - Features and specifications
 - Testimonials
 - Company information
@@ -200,11 +200,11 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-Created as a luxury watch marketing website template.
+Created as a luxury timepiece marketing website template.
 
 ## 🙏 Acknowledgments
 
-- Design inspiration from premium watch brands
+- Design inspiration from premium timepiece brands
 - GSAP for powerful animations
 - Unsplash for placeholder images
 

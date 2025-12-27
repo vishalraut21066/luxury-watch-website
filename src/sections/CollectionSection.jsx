@@ -1,7 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { SplitText } from "gsap/all";
-import { watchCollection } from "../constants";
+import { timepieceCollection } from "../constants";
 
 const CollectionSection = () => {
   useGSAP(() => {
@@ -56,7 +56,7 @@ const CollectionSection = () => {
       },
     });
 
-    slider.to(".watches", {
+    slider.to(".timepieces", {
       xPercent: -70,
       ease: "none",
     });
@@ -108,10 +108,10 @@ const CollectionSection = () => {
         </p>
       </div>
 
-      {/* Watches Slider */}
+      {/* Timepieces Slider */}
       <div className="slider-wrapper">
-        <div className="watches">
-          {watchCollection.map((watch) => {
+        <div className="timepieces">
+          {timepieceCollection.map((watch) => {
             const cardStyle = getCardStyle(watch.color);
             return (
               <div

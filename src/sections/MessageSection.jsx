@@ -95,7 +95,7 @@ const MessageSection = () => {
             <div className="max-w-md px-10 flex-center overflow-hidden">
               <p className="text-lg leading-relaxed">
                 Every timepiece tells a story of excellence, combining traditional craftsmanship
-                with modern innovation to create watches that stand the test of time.
+                with modern innovation to create timepieces that stand the test of time.
               </p>
             </div>
           </div>

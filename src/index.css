@@ -141,7 +141,7 @@ body::-webkit-scrollbar {
     .slider-wrapper {
       @apply h-dvh w-full flex items-center overflow-hidden;
 
-      .watches {
+      .timepieces {
         @apply h-full flex items-center md:gap-16 gap-7 flex-nowrap pl-[10vw];
 
         .watch-card {

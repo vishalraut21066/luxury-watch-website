@@ -1,4 +1,4 @@
-const watchCollection = [
+const timepieceCollection = [
   {
     id: 1,
     name: "Heritage Classic",
@@ -94,7 +94,7 @@ const whyChooseUs = [
   },
   {
     title: "Investment Value",
-    description: "Chronos watches appreciate in value, making them smart investments",
+    description: "Chronos timepieces appreciate in value, making them smart investments",
   },
 ];
 
@@ -106,7 +106,7 @@ const pressLogos = [
 ];
 
 export { 
-  watchCollection, 
+  timepieceCollection, 
   heritageFeatures, 
   craftsmanshipFeatures, 
   testimonials,
