@@ -69,7 +69,7 @@ const HeroSection = () => {
             {isMobile && (
               <img
                 src="/images/hero/hero-bg.jpg"
-                className="absolute bottom-40 size-full object-cover opacity-10"
+                className="absolute bottom-40 size-full object-cover opacity-15"
                 alt="Watch Background"
               />
             )}
@@ -82,7 +82,7 @@ const HeroSection = () => {
         ) : (
           <img
             src="/images/hero/hero-bg.jpg"
-            className="absolute inset-0 w-full h-full object-cover opacity-15"
+            className="absolute inset-0 w-full h-full object-cover opacity-70"
             alt="Watch Background"
           />
         )}
@@ -112,7 +112,7 @@ const HeroSection = () => {
             <p>Explore Collection</p>
           </div>
 
-          {/* Trust Badges */}
+        
           <div className="mt-10 flex items-center justify-center gap-8 text-dark-brown/60 text-sm font-paragraph">
             <div className="flex items-center gap-2">
               <span className="text-lg">✓</span>
@@ -129,12 +129,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Scroll Indicator */}
-        <div className="scroll-indicator hidden md:block">
-          <div className="w-6 h-10 border-2 border-dark-brown rounded-full flex justify-center pt-2">
-            <div className="w-1 h-2 bg-dark-brown rounded-full animate-bounce"></div>
-          </div>
-        </div>
+       
       </div>
     </section>
   );
